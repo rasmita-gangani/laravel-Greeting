@@ -2,6 +2,7 @@
   "name": "rasmita-gangani/greeting",
   "description": "A simple Laravel package to provide greetings.",
   "type": "library",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "rasmita-gangani\\Greeting\\": "packages/rasmita-gangani/Greeting/src/"
