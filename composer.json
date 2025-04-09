@@ -1,19 +1,19 @@
 {
-  "name": "RasmitaGangani/greeting",
+  "name": "rasmita-gangani/greeting",
   "description": "A simple Laravel package to provide greetings.",
   "type": "library",
   "autoload": {
     "psr-4": {
-      "RasmitaGangani\\Greeting\\": "packages/RasmitaGangani/Greeting/src/"
+      "rasmita-gangani\\Greeting\\": "packages/rasmita-gangani/Greeting/src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "RasmitaGangani\\Greeting\\GreetingServiceProvider"
+        "rasmita-gangani\\Greeting\\GreetingServiceProvider"
       ],
       "aliases": {
-        "Greeting": "RasmitaGangani\\Greeting\\Facades\\Greeting"
+        "Greeting": "rasmita-gangani\\Greeting\\Facades\\Greeting"
       }
     }
   },
