@@ -1,25 +1,34 @@
 {
-  "version": "1.0.0",
-  "name": "RasmitaGangani/greeting",
+  "name": "rasmita-gangani/greeting",
   "description": "A simple Laravel package to provide greetings.",
   "type": "library",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Rasmita Gangani",
+      "email": "rasmita.gangani@gmail.com"
+    }
+  ],
   "autoload": {
     "psr-4": {
-      "RasmitaGangani\\Greeting\\": "packages/RasmitaGangani/Greeting/src/"
+      "rasmita-gangani\\Greeting\\": "src/"
+
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "RasmitaGangani\\Greeting\\GreetingServiceProvider"
+        "rasmita-gangani\\Greeting\\GreetingServiceProvider"
       ],
       "aliases": {
-        "Greeting": "RasmitaGangani\\Greeting\\Facades\\Greeting"
+        "Greeting": "rasmita-gangani\\Greeting\\Facades\\Greeting"
       }
     }
   },
   "require": {
     "php": ">=7.4",
-    "illuminate/support": "^8.0|^9.0|^10.0"
-  }
+    "laravel/framework": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
