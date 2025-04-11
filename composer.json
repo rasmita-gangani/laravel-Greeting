@@ -3,6 +3,7 @@
   "description": "A simple Laravel package to provide greetings.",
   "type": "library",
   "version": "1.0.0",
+  "license": "MIT",
   "authors": [
     {
       "name": "Rasmita Gangani",
