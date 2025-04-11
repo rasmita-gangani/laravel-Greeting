@@ -9,7 +9,7 @@ A simple Laravel package that provides greeting messages based on the time of da
 You can install the package via Composer:
 
 ```sh
-composer require myvendor/greeting
+composer require rasmita-gangani/greeting
 ```
 
 ## Usage
@@ -35,6 +35,6 @@ echo greeting(); // Output: "Good afternoon!"
 ## Configuration (Optional)
 If you want to customize how greetings are handled, publish the configuration file:
  ```sh
-php artisan vendor:publish --provider="MyVendor\Greeting\GreetingServiceProvider"
+php artisan vendor:publish --provider="rasmita-gangani\Greeting\GreetingServiceProvider"
 ```
 Then, update config/greeting.php as needed.
